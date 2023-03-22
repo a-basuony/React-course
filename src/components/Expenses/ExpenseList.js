@@ -2,10 +2,6 @@ import React from "react";
 import ExpenseItem from "./ExpenseItem";
 import "./ExpenseList.css";
 
-{
-  /* main option to filter ===>  */
-}
-
 function ExpenseList(props) {
   if (props.items.length === 0) {
     return <h3 className="expenses-list__notFound"> there is no expenses</h3>;
